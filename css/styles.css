@@ -1,0 +1,193 @@
+:root {
+  --main-font-family: 'roboto' sans-serif;
+  --main-font-color: #757575;
+  --main-font-size: 14px;
+  --main-font-weight: 400;
+  --secondary-font-family: 'raleway' sans-serif;
+  --secondary-font-color: #212121;
+  --secondary-font-weight: 700;
+  --accent-color: #2196f3;
+  --accent-secondary-color: #188ce8;
+  --general-dark-font-color: #000000;
+  --general-light-font-color: #ffffff;
+  --secondary-light-font-color: #ffffff99;
+  --modal-button-color: #f5f4fa;
+  --bacground-dark-color: #2f303a;
+}
+
+.address {
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  color: var(--main-font-color);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+}
+/* ======COMPONENTS */
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+  background-color: var(--modal-button-color);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--general-light-font-color);
+  background-color: var(--accent-color);
+}
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: var(--secondary-font-weight);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logo-dark-theme {
+  color: var(--general-light-font-color);
+}
+.logo-light-theme {
+  color: var(--general-dark-font-color);
+}
+.title {
+  font-weight: var(--secondary-font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+/* =======END COMPONENTS */
+/* =======HEADER======== */
+.navigation-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.navigation-link.current {
+  color: var(--accent-color);
+}
+.header-mail-link,
+.header-phone-link {
+  color: var(--secondary-font-color);
+}
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-phone-link:hover,
+.header-phone-link:focus {
+  color: var(--accent-color);
+}
+/* =======END HEADER======= */
+
+/* =======HERO============  */
+.hero {
+  background-color: var(--bacground-dark-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--general-light-font-color);
+}
+.hero-modal-btn {
+  font-family: inherit;
+  font-weight: var(--secondary-font-weight);
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--general-light-font-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.hero-modal-btn:hover,
+.hero-modal-btn:focus {
+  background-color: var(--accent-secondary-color);
+}
+/* ======END HERO=========== */
+
+/* =====FEATURES============ */
+.features-item-title {
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--main-font-size);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+}
+.features-contents {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* =========END FEATURES====== */
+
+/* ======what we do ====== */
+/* =====end what we do====== */
+
+/* ===team==== */
+
+.members-item {
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+.members-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--secondary-font-color);
+}
+/* =====end team======= */
+
+/* =====FOOTER========= */
+.footer {
+  background-color: var(--bacground-dark-color);
+}
+.address {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-address-link {
+  color: var(--general-light-font-color);
+}
+
+.footer-mail-link,
+.footer-phone-link {
+  color: var(--secondary-light-font-color);
+}
+/* ======END FOOTER====== */
+
+/* ===portfolio galery */
+.galery-item-title {
+  font-weight: var(--secondary-font-weight);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-font-color);
+}
+.galery-item-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/* =====END portfolio galery===== */

@@ -1,9 +1,9 @@
 :root {
-  --main-font-family: 'roboto' sans-serif;
+  --main-font-family: 'roboto', sans-serif;
   --main-font-color: #757575;
   --main-font-size: 14px;
   --main-font-weight: 400;
-  --secondary-font-family: 'raleway' sans-serif;
+  --secondary-font-family: 'raleway', sans-serif;
   --secondary-font-color: #212121;
   --secondary-font-weight: 700;
   --accent-color: #2196f3;
@@ -38,6 +38,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
   background-color: var(--modal-button-color);
+  cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -83,7 +84,12 @@ body {
 }
 .header-mail-link,
 .header-phone-link {
-  color: var(--secondary-font-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-font-color);
 }
 .header-mail-link:hover,
 .header-mail-link:focus,
@@ -146,6 +152,9 @@ body {
 
 /* ===team==== */
 
+.members {
+  background-color: var(--modal-button-color);
+}
 .members-item {
   font-size: 16px;
   line-height: 1.19;
@@ -175,6 +184,13 @@ body {
 .footer-phone-link {
   color: var(--secondary-light-font-color);
 }
+
+.footer-mail-link:hover,
+.footer-mail-link:focus,
+.footer-phone-link:hover,
+.footer-phone-link:focus {
+  color: var(--accent-color);
+}
 /* ======END FOOTER====== */
 
 /* ===portfolio galery */
@@ -189,5 +205,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--main-font-color);
 }
 /* =====END portfolio galery===== */
